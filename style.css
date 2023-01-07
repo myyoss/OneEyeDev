@@ -28,12 +28,7 @@ body {
   margin: auto;
   box-sizing: border-box;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -62,22 +57,26 @@ body {
 .skillsWrapper .skillsTopRow .skill .skillImg,
 .skillsWrapper .skillsBottomRow .skill .skillImg {
   width: 40%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .skillsWrapper .skillsTopRow .skill .skillImg-figma,
 .skillsWrapper .skillsBottomRow .skill .skillImg-figma {
   width: 30%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .skillsWrapper .skillsTopRow .skill .skillImg-MDB,
 .skillsWrapper .skillsBottomRow .skill .skillImg-MDB {
   width: 70%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .skillsWrapper .skillsTopRow .skill .skillImg-jets,
 .skillsWrapper .skillsBottomRow .skill .skillImg-jets {
   width: 60%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .skillsWrapper .skillsTopRow .skill .skillName,
 .skillsWrapper .skillsBottomRow .skill .skillName {
@@ -115,7 +114,8 @@ body {
 .skillsTitle img,
 .contactTitle img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .projectsImg,
@@ -127,12 +127,14 @@ body {
 .skillsImg img,
 .contactImg img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .radialGradient1 {
@@ -221,7 +223,8 @@ img {
 }
 .descriptionWrapper .descriptionResumeBtn img {
   width: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .sectionProjects,
@@ -258,7 +261,8 @@ img {
 .skillsWrapper .projectsTopRow .projectWrapper .imgLink img,
 .skillsWrapper .projectsBottomRow .projectWrapper .imgLink img {
   width: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 6px;
   box-shadow: 1px 1px 3px 0 #000;
 }
@@ -275,8 +279,9 @@ img {
 .skillsWrapper .projectsTopRow .projectWrapper .githubLink img,
 .skillsWrapper .projectsBottomRow .projectWrapper .githubLink img {
   width: 30px;
-  object-fit: contain;
-  background-color: #7ba0b1a7;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: rgba(123, 160, 177, 0.6549019608);
   border-radius: 6px;
   padding: 0.5rem;
 }
@@ -334,7 +339,8 @@ img {
 .sectionContact .leftSide .skillsImg img,
 .sectionContact .leftSide .contactImg img {
   width: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .sectionAbout .leftSide .aboutTitle,
 .sectionAbout .leftSide .projectsTitle,
@@ -371,7 +377,8 @@ img {
 .sectionContact .leftSide .skillsTitle img,
 .sectionContact .leftSide .contactTitle img {
   width: 70%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .sectionAbout .rightSide,
 .sectionProjects .rightSide,
@@ -418,13 +425,14 @@ img {
 .sectionContact .rightSide .skillsBtn img,
 .sectionContact .rightSide .contactLinks img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .sectionAbout .rightSide .myPic,
 .sectionProjects .rightSide .myPic,
 .sectionSkills .rightSide .myPic,
 .sectionContact .rightSide .myPic {
-  background-color: #d4af376e;
+  background-color: rgba(212, 175, 55, 0.431372549);
   padding: 0.6rem;
   border-radius: 6px;
 }
@@ -447,7 +455,7 @@ img {
   margin-bottom: 6rem;
   align-items: baseline;
   border-radius: 10px;
-  border: 1px solid #6d8d9b72;
+  border: 1px solid rgba(109, 141, 155, 0.4470588235);
 }
 .formWrapper input {
   height: 3rem;
@@ -473,7 +481,8 @@ img {
 }
 .formWrapper .submitBtn img {
   width: 80%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   border: 1px solid #d4af37;
   border-radius: 6px;
   display: block;
@@ -494,7 +503,7 @@ img {
 .formWrapper .messageWrapper .textFieldInput {
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
   color: #ffffff;
   font-weight: 200;
 }
@@ -513,14 +522,17 @@ textarea {
   align-self: flex-end;
 }
 
-.infoPlaceholder::-webkit-input-placeholder {
+.infoPlaceholder::-moz-placeholder {
   font-weight: lighter;
   color: #AFB2B3;
 }
 
-.infoPlaceholder::-moz-placeholder {
-  font-weight: lighter;
-  color: #AFB2B3;
+textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.46);
+}
+
+textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.46);
 }
 
 textarea::placeholder {
@@ -529,61 +541,47 @@ textarea::placeholder {
 
 @-webkit-keyframes pop-on-hover {
   10% {
-    -webkit-transform: scale(0.8);
     transform: scale(0.8);
   }
   30% {
-    -webkit-transform: scale(0.8);
     transform: scale(0.8);
   }
   40% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
   60% {
-    -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
   80% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
   100% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
 @keyframes pop-on-hover {
   0% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
   20% {
-    -webkit-transform: scale(0.7);
     transform: scale(0.7);
   }
   30% {
-    -webkit-transform: scale(0.7);
     transform: scale(0.7);
   }
   50% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
   60% {
-    -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
   80% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
   84% {
-    -webkit-transform: scale(0.98);
     transform: scale(0.98);
   }
   100% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
@@ -602,14 +600,5 @@ textarea::placeholder {
 }
 
 .body-thankyou {
-  width: 20%;
-  margin: auto;
-  background-color: black;
-}
-.body-thankyou .thanks {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  background-color: rgb(0, 0, 0);
+}/*# sourceMappingURL=style.css.map */
