@@ -7,6 +7,7 @@ body {
   width: 90vw;
   margin: auto;
   background-image: linear-gradient(to bottom, #495f69, #2e3c42);
+  background-color: #ffffff;
   background-repeat: no-repeat;
   font-family: "Outfit", sans-serif;
   color: white;
@@ -118,6 +119,19 @@ body {
   object-fit: cover;
 }
 
+.contactBtn {
+  width: 12%;
+}
+.contactBtn img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.linkImg {
+  opacity: 0.8;
+  padding: 1rem;
+}
+
 .projectsImg,
 .skillsImg,
 .contactImg {
@@ -161,6 +175,20 @@ img {
   opacity: 0.2;
   filter: blur(100px);
   -webkit-filter: blur(70px);
+}
+
+.devImage {
+  width: 800px;
+  height: 800px;
+  position: fixed;
+  z-index: -8;
+  top: 20%;
+  left: 40%;
+  opacity: 0.1;
+  filter: blur(10px);
+  -webkit-filter: blur(1.5px);
+  background-image: url("../images/devImage.svg");
+  background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -208,10 +236,14 @@ img {
 .descriptionWrapper .descriptionText {
   width: 60%;
 }
+.descriptionWrapper .descriptionText .myDescription {
+  font-weight: 200;
+}
 .descriptionWrapper .descriptionText .descriptionQuote {
+  margin-top: 1rem;
   color: #d4af37;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300;
 }
 .descriptionWrapper .descriptionText .descriptionQuote span {
   font-weight: 500;
@@ -424,9 +456,10 @@ img {
 .sectionProjects .rightSide .myPic,
 .sectionSkills .rightSide .myPic,
 .sectionContact .rightSide .myPic {
-  background-color: #d4af376e;
+  background-color: #d4af3713;
   padding: 0.6rem;
   border-radius: 6px;
+  border: 1px solid #d4af376e;
 }
 .sectionAbout .rightSide .contactLinks,
 .sectionProjects .rightSide .contactLinks,
@@ -494,7 +527,7 @@ img {
 .formWrapper .messageWrapper .textFieldInput {
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.367);
   color: #ffffff;
   font-weight: 200;
 }
@@ -612,4 +645,36 @@ textarea::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 550ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.sectionAbout,
+.sectionProjects,
+.sectionContact,
+.sectionSkills {
+  transform: translateX(-26%);
+  opacity: 0;
+}
+
+.sectionAbout,
+.sectionProjects,
+.sectionContact,
+.sectionSkills {
+  transition: transform 550ms ease-in;
+}
+
+.sectionAbout.appear,
+.sectionProjects.appear,
+.sectionContact.appear,
+.sectionSkills.appear {
+  transform: translateX(0);
+  opacity: 1;
 }
