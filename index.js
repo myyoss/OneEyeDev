@@ -29,7 +29,7 @@ sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
 });
 
-function submitForm(event) {
+function submitForm() {
   const form = document.getElementsByName("contact-form")[0];
   const popUp = document.querySelector(".pop-up-window");
 
