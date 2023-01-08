@@ -653,7 +653,7 @@ textarea::placeholder {
 .sectionProjects,
 .sectionContact,
 .sectionSkills {
-    transition: transform 550ms ease-in;
+    transition: transform 550ms ease-in-out;
 
 }
 
@@ -677,4 +677,109 @@ textarea::placeholder {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width:800px) {
+    .wrapper {
+        width: 500px;
+    }
+
+    .formWrapper {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .textFieldInput {
+        width: 14rem;
+        height: 10rem;
+    }
+}
+
+@media (max-width:560px) {
+
+    .wrapper {
+        width: 340px;
+    }
+
+    .headerWrapper {
+        display: flex;
+        flex-direction: column;
+        .linkImg {
+            display: none;
+        }
+    }
+
+    .skillsWrapper {
+        width: 300px;
+    }
+
+    .skillsWrapper .skillsTopRow .skill {
+        width: 44px;
+        height: 50px;
+        .skillName {
+            font-size: 10px;
+        }
+    }
+
+    .skillsWrapper .skillsBottomRow .skill {
+        width: 44px;
+        height: 50px;
+        .skillName {
+            font-size: 10px;
+        }
+    }
+
+    .formWrapper {
+        max-width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textFieldwrapper {
+        width: 100px;
+        box-sizing: border-box;
+    }
+
+    .messageWrapper {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        margin: auto;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .textFieldwrapper {
+        width: 100%;
+        margin: auto;
+    }
+
+    .textFieldInput {
+        width: 90%;
+        margin: auto;
+    }
+
+    .textFieldLabel {
+        margin: 2rem 1rem;
+    }
+
+    .sectionContact .rightSide .contactLinks {
+        width: 50%;
+
+    }
+
+    .sectionProjects .rightSide .projectsGithubBtn {
+        width: 40%;
+
+    }
+
+    .sectionAbout .rightSide .aboutMyPic {
+        width: 40%;
+    }
 }
