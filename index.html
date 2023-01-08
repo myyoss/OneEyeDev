@@ -41,7 +41,7 @@
         </div>
         <div class="descriptionWrapper">
             <div class="descriptionText">
-                <div class="myDescription fade-in">I’m an enthusiastic developer with passion for new coding
+                <div class="myDescription">I’m an enthusiastic developer with passion for new coding
                     perspectives.
                     Visual media savvy, passionate approach for details.</div>
                 <div class="descriptionQuote">“Simplicity is the soul of efficiency" <span>(Austin Freeman)</span></div>
@@ -178,7 +178,7 @@
         </div>
         <div class="formWrapper" id="anchor-form">
             <div class="inputsWrapper">
-                <form action="https://formsubmit.co/asnafy.junior@gmail.com" method="POST">
+                <form name="contact-form" action="https://formsubmit.co/asnafy.junior@gmail.com" method="POST" onsubmit="submitForm()">
                     <div class="inputNameWrapper">
                         <div class="inputLabel">Name</div>
                         <input class="inputName" type="text" name="name">
@@ -202,8 +202,9 @@
                         Submit
                     </button>
                 </div>
+                <div class="pop-up-window"><h1>Thank you!</h1></div>
             </div>
-            <input type="hidden" name="_next" value="https://myyoss.github.io/OneEyeDev/thank-you.html">
+            <input type="hidden" name="_next" value="https://myyoss.github.io/OneEyeDev/">
             <input type="hidden" name="_subject" value="New submission!">
             <input type="hidden" name="_captcha" value="false">
             </form>

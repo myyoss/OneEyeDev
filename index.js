@@ -28,3 +28,15 @@ faders.forEach((fader) => {
 sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
 });
+
+function submitForm(event) {
+  const form = document.getElementsByName("contact-form")[0];
+  const popUp = document.querySelector(".pop-up-window");
+
+  form.submit();
+  form.reset();
+
+  popUp.classList.add("show");
+
+  return false;
+}

@@ -634,19 +634,6 @@ textarea::placeholder {
   cursor: pointer;
 }
 
-.body-thankyou {
-  width: 20%;
-  margin: auto;
-  background-color: black;
-}
-.body-thankyou .thanks {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .fade-in {
   opacity: 0;
   transition: opacity 550ms ease-in;
@@ -677,4 +664,17 @@ textarea::placeholder {
 .sectionSkills.appear {
   transform: translateX(0);
   opacity: 1;
+}
+
+.pop-up-window {
+  display: none;
+}
+
+.pop-up-window.show {
+  display: block;
+  width: 200px;
+  color: #d4af37;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }

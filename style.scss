@@ -11,8 +11,8 @@ div {
 body {
     width: 90vw;
     margin: auto;
-     background-image: linear-gradient(to bottom, #495f69, #2e3c42);
-     background-color: #ffffff;
+    background-image: linear-gradient(to bottom, #495f69, #2e3c42);
+    background-color: #ffffff;
     background-repeat: no-repeat;
     font-family: 'Outfit', sans-serif;
     color: white;
@@ -630,25 +630,6 @@ textarea::placeholder {
     cursor: pointer;
 }
 
-.body-thankyou {
-    width: 20%;
-    margin: auto;
-    background-color: rgb(0, 0, 0);
-
-    .thanks {
-
-        width: 100%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    // div{
-    //     border: 1px solid red;
-    // }
-}
 
 .fade-in {
     opacity: 0;
@@ -683,4 +664,17 @@ textarea::placeholder {
     transform: translateX(0);
     opacity: 1;
 
+}
+
+.pop-up-window {
+    display: none;
+}
+
+.pop-up-window.show {
+    display: block;
+    width: 200px;
+    color: #d4af37;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
