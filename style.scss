@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
 
+
 html {
     scroll-behavior: smooth
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-
-a:visited { text-decoration: none; }
-div {
-    // border: 1px solid rgb(184, 113, 113);
 }
 
 body {
@@ -22,9 +14,21 @@ body {
     font-family: 'Outfit', sans-serif;
     color: white;
     font-size: 16px;
-
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
 
 .headerWrapper,
 .sectionAbout,
@@ -58,7 +62,6 @@ body {
     align-items: center;
     width: 100%;
     margin: auto;
-
 }
 
 .skillsWrapper {
@@ -115,7 +118,6 @@ body {
 
 .aboutMyPic,
 .linkImg,
-.contactBtn,
 .aboutTitle,
 .projectsTitle,
 .descriptionResumeBtn,
@@ -156,60 +158,10 @@ body {
 }
 
 
-
-img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.radialGradient1 {
-    background-image: radial-gradient(#ffffff, #567784);
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    position: fixed;
-    z-index: -10;
-    top: 40%;
-    left: 10%;
-    opacity: 0.2;
-    filter: blur(100px);
-    -webkit-filter: blur(70px);
-}
-
-.radialGradient2 {
-    background-image: radial-gradient(#ffffff, #567784);
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    position: fixed;
-    z-index: -10;
-    top: -20%;
-    left: 50%;
-    opacity: 0.2;
-    filter: blur(100px);
-    -webkit-filter: blur(70px);
-}
-
-.devImage {
-    width: 800px;
-    height: 800px;
-    position: fixed;
-    z-index: -8;
-    top: 20%;
-    left: 40%;
-    opacity: 0.1;
-    filter: blur(10px);
-    -webkit-filter: blur(1.5px);
-    background-image: url("../images/devImage.svg");
-    background-repeat: no-repeat;
-
-}
-
 .wrapper {
     width: 700px;
     margin: auto;
     margin-top: 3rem;
-
 }
 
 .headerWrapper {
@@ -226,11 +178,9 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // align-items: center;
     width: 100%;
     margin: auto;
     margin-top: 5rem;
-
     font-weight: 600;
 
     .hi {
@@ -250,7 +200,6 @@ img {
 
 .sectionAbout {
     margin-top: 6rem;
-
 }
 
 
@@ -275,7 +224,6 @@ img {
 
             span {
                 font-weight: 500;
-
             }
         }
     }
@@ -288,14 +236,12 @@ img {
             object-fit: contain;
         }
     }
-
 }
 
 .sectionProjects,
 .sectionSkills,
 .sectionContact {
     margin-top: 6rem;
-
 }
 
 .projectsWrapper,
@@ -312,7 +258,6 @@ img {
         border-radius: 6px;
         padding: 0%;
         margin: 0%;
-
     }
 
     .projectsTopRow,
@@ -326,7 +271,6 @@ img {
                     object-fit: contain;
                     border-radius: 6px;
                     box-shadow: 1px 1px 3px 0 #000;
-
                 }
             }
 
@@ -347,10 +291,11 @@ img {
     }
 }
 
-.projectsWrapper{
-    .loading{
+.projectsWrapper {
+    .loading {
         margin-bottom: auto;
-        h3{
+
+        h3 {
             font-size: small;
             font-weight: 200;
             margin: 0%;
@@ -358,6 +303,7 @@ img {
         }
     }
 }
+
 .sectionAbout,
 .sectionProjects,
 .sectionSkills,
@@ -434,11 +380,8 @@ img {
 .descriptionResumeBtn,
 .projectsGithubBtn {
     img {
-
         border-radius: 20px;
     }
-
-
 }
 
 
@@ -446,13 +389,7 @@ img {
     padding: 2rem;
     margin-top: 6rem;
     margin-bottom: 6rem;
-
     align-items: baseline;
-
-    // div {
-    //     border: 1px solid red;
-    // }
-
     border-radius: 10px;
     border: 1px solid #6d8d9b72;
 
@@ -468,7 +405,6 @@ img {
         font-size: 16px;
         font-weight: 200;
         color: #ffffff;
-
     }
 
 
@@ -481,8 +417,6 @@ img {
         align-self: flex-end;
         border-radius: 6px;
         cursor: pointer;
-        // margin-right: 0.8rem;
-
 
         img {
             width: 80%;
@@ -526,7 +460,6 @@ textarea {
     width: 30rem;
     height: 5rem;
     padding-left: 0.4rem;
-
 }
 
 .textFieldwrapper {
@@ -534,7 +467,6 @@ textarea {
     flex-direction: column;
     justify-content: flex-end;
     align-self: flex-end;
-
 }
 
 .infoPlaceholder::-webkit-input-placeholder {
@@ -552,7 +484,111 @@ textarea::placeholder {
 }
 
 
+.radialGradient1 {
+    background-image: radial-gradient(#ffffff, #567784);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -10;
+    top: 40%;
+    left: 10%;
+    opacity: 0.2;
+    filter: blur(100px);
+    -webkit-filter: blur(70px);
+}
 
+.radialGradient2 {
+    background-image: radial-gradient(#ffffff, #567784);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -10;
+    top: -20%;
+    left: 50%;
+    opacity: 0.2;
+    filter: blur(100px);
+    -webkit-filter: blur(70px);
+}
+
+.devImage {
+    width: 800px;
+    height: 800px;
+    position: fixed;
+    z-index: -8;
+    top: 20%;
+    left: 40%;
+    opacity: 0.1;
+    filter: blur(10px);
+    -webkit-filter: blur(1.5px);
+    background-image: url("../images/devImage.svg");
+    background-repeat: no-repeat;
+}
+
+
+.pop-on-hover:hover,
+.pop-on-hover:focus,
+.pop-on-hover:active {
+    -webkit-animation-name: pop-on-hover;
+    animation-name: pop-on-hover;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 550ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+
+.sectionAbout,
+.sectionProjects,
+.sectionContact,
+.sectionSkills {
+    transform: translateX(-26%);
+    opacity: 0;
+}
+
+.sectionAbout,
+.sectionProjects,
+.sectionContact,
+.sectionSkills {
+    transition: transform 550ms ease-in-out;
+
+}
+
+.sectionAbout.appear,
+.sectionProjects.appear,
+.sectionContact.appear,
+.sectionSkills.appear {
+    transform: translateX(0);
+    opacity: 1;
+
+}
+
+.pop-up-window {
+    display: none;
+}
+
+.pop-up-window.show {
+    display: block;
+    width: 200px;
+    color: #d4af37;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 @-webkit-keyframes pop-on-hover {
 
@@ -632,68 +668,6 @@ textarea::placeholder {
 
 }
 
-.pop-on-hover:hover,
-.pop-on-hover:focus,
-.pop-on-hover:active {
-    -webkit-animation-name: pop-on-hover;
-    animation-name: pop-on-hover;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    cursor: pointer;
-}
-
-
-.fade-in {
-    opacity: 0;
-    transition: opacity 550ms ease-in;
-}
-
-.fade-in.appear {
-    opacity: 1;
-}
-
-
-.sectionAbout,
-.sectionProjects,
-.sectionContact,
-.sectionSkills {
-    transform: translateX(-26%);
-    opacity: 0;
-}
-
-.sectionAbout,
-.sectionProjects,
-.sectionContact,
-.sectionSkills {
-    transition: transform 550ms ease-in-out;
-
-}
-
-.sectionAbout.appear,
-.sectionProjects.appear,
-.sectionContact.appear,
-.sectionSkills.appear {
-    transform: translateX(0);
-    opacity: 1;
-
-}
-
-.pop-up-window {
-    display: none;
-}
-
-.pop-up-window.show {
-    display: block;
-    width: 200px;
-    color: #d4af37;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 
 @media (max-width:800px) {
     .wrapper {
@@ -720,6 +694,7 @@ textarea::placeholder {
     .headerWrapper {
         display: flex;
         flex-direction: column;
+
         .linkImg {
             display: none;
         }
@@ -732,6 +707,7 @@ textarea::placeholder {
     .skillsWrapper .skillsTopRow .skill {
         width: 44px;
         height: 50px;
+
         .skillName {
             font-size: 10px;
         }
@@ -740,6 +716,7 @@ textarea::placeholder {
     .skillsWrapper .skillsBottomRow .skill {
         width: 44px;
         height: 50px;
+
         .skillName {
             font-size: 10px;
         }
@@ -799,3 +776,7 @@ textarea::placeholder {
         width: 40%;
     }
 }
+
+// div {
+//     border: 1px solid red;
+// }
