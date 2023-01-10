@@ -313,6 +313,16 @@ img {
   padding: 0.5rem;
 }
 
+.projectsWrapper .loading {
+  margin-bottom: auto;
+}
+.projectsWrapper .loading h3 {
+  font-size: small;
+  font-weight: 200;
+  margin: 0%;
+  padding: 0%;
+}
+
 .sectionAbout,
 .sectionProjects,
 .sectionSkills,
