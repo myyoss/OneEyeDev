@@ -142,8 +142,9 @@ img {
 }
 
 .linkImg {
-    opacity: 0.8;
+    opacity: 0.3;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .projectsImg,
@@ -183,14 +184,23 @@ img {
     margin-top: 5rem;
     font-weight: 600;
 
-    .hi {
-        font-size: 24px;
+    .intFirstRow {
+        display: flex;
+        align-items: baseline;
+        .hi {
+            font-size: 24px;
+            font-weight: 200;
+        }
+
+        .myName {
+            font-size: 28px;
+            font-weight: 200;
+            color: #84b6c6;
+            padding-left: 0.5rem;
+        }
     }
 
-    .myName {
-        font-size: 38px;
-        color: #84b6c6;
-    }
+
 
     .myTitle {
         font-size: 42px;
