@@ -213,7 +213,7 @@ img {
   font-weight: 200;
 }
 .descriptionWrapper .descriptionText .descriptionQuote {
-  margin-top: 1rem;
+  margin: 1rem 0rem;
   color: #d4af37;
   font-style: italic;
   font-weight: 300;
