@@ -504,6 +504,42 @@ textarea::placeholder {
     -webkit-filter: blur(70px);
 }
 
+.moredemosWrapper {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .demo {
+        width: 50%;
+
+        img {
+            border-radius: 1rem;
+            box-shadow: 1px 1px 3px 0 #000;
+            border: 1px solid rgba(255, 255, 255, 0.516);
+            padding: 0.2rem;
+            box-sizing: border-box;
+        }
+
+        h3 {
+            margin: 0%;
+            margin-bottom: 0.5rem;
+            font-weight: 100;
+            font-size: 12px;
+        }
+    }
+}
+
+.allrights {
+    color: #ffffff;
+    font-size: x-small;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #d4af37;
+    border-top: 1px solid #d4af3773;
+}
+
 .radialGradient2 {
     background-image: radial-gradient(#ffffff, #567784);
     width: 400px;
@@ -805,6 +841,20 @@ textarea::placeholder {
 
     .sectionAbout .rightSide .aboutMyPic {
         width: 40%;
+    }
+
+    .moredemosWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .demosTitle {
+        text-align: center;
     }
 }
 
