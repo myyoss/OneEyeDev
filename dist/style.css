@@ -444,10 +444,11 @@ img {
 .sectionProjects .rightSide .myPic,
 .sectionSkills .rightSide .myPic,
 .sectionContact .rightSide .myPic {
-  background-color: #d4af3713;
   padding: 0.6rem;
   border-radius: 6px;
   border: 1px solid #d4af376e;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 .sectionAbout .rightSide .contactLinks,
 .sectionProjects .rightSide .contactLinks,
