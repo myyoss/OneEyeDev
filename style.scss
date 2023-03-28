@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
 
-:root{
-    --primary:#d4af37;
+:root {
+    --primary: #d4af37;
 }
+
 html {
     scroll-behavior: smooth
 }
@@ -266,6 +267,7 @@ img {
         border-radius: 6px;
         padding: 0%;
         margin: 0%;
+
     }
 
     .projectsTopRow,
@@ -274,11 +276,14 @@ img {
             position: relative;
 
             .imgLink {
+
                 img {
                     width: 100%;
                     object-fit: contain;
                     border-radius: 6px;
                     box-shadow: 1px 1px 3px 0 #000;
+                    max-height: 200px;
+
                 }
             }
 
@@ -288,13 +293,14 @@ img {
                 left: 2%;
 
                 img {
-                    width: 30px;
+                    width: 20px;
                     object-fit: contain;
-                    background-color: #7ba0b12b;
-                    border-radius: 6px;
+                    background-color: #ffffff;
+                    border-radius: 50%;
                     padding: 0.5rem;
-                    border: 1px solid rgba(255, 255, 255, 0.218);
+                    border: 3px solid #84b5c662;
                 }
+
             }
         }
     }
@@ -515,6 +521,7 @@ textarea::placeholder {
 
     .demo {
         width: 50%;
+
         img {
             border-radius: 1rem;
             box-shadow: 1px 1px 3px 0 #000;
@@ -678,13 +685,13 @@ textarea::placeholder {
     }
 
     20% {
-        -webkit-transform: scale(0.7);
-        transform: scale(0.7);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
     }
 
     30% {
-        -webkit-transform: scale(0.7);
-        transform: scale(0.7);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
     }
 
     50% {
