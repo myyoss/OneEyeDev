@@ -283,22 +283,30 @@ img {
                     border-radius: 6px;
                     box-shadow: 1px 1px 3px 0 #000;
                     max-height: 200px;
-
+                    display: flex;
+                    margin: auto;
                 }
             }
 
             .githubLink {
                 position: absolute;
                 bottom: 3%;
-                left: 2%;
+                left: 4%;
 
-                img {
-                    width: 20px;
-                    object-fit: contain;
-                    background-color: #ffffff;
-                    border-radius: 50%;
-                    padding: 0.5rem;
-                    border: 3px solid #84b5c662;
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+                    img {
+                        width: 16px;
+                        object-fit: contain;
+                        background-color: #ffffffef;
+                        border-radius: 50%;
+                        padding: 0.4rem 0.4rem ;
+                        border: 3px solid #84b5c6a9;
+                    }
+
                 }
 
             }
