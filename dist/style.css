@@ -297,10 +297,9 @@ img {
 .skillsWrapper .projectsBottomRow .projectWrapper .githubLink a img {
   width: 16px;
   object-fit: contain;
-  background-color: #ffffffef;
+  background-color: #ffffff1c;
   border-radius: 50%;
   padding: 0.4rem 0.4rem;
-  border: 3px solid #84b5c6a9;
 }
 
 .projectsWrapper .loading {
