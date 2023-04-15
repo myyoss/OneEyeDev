@@ -164,6 +164,56 @@ img {
     width: 700px;
     margin: auto;
     margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .midSection {
+        width: 98vw;
+        box-sizing: border-box;
+
+        // padding: 0rem 10rem;
+        // padding-left: 100px;
+        // padding: 200px;
+        // margin: 10rem;
+        .projectsWrapper {
+            background-color: #ffffffab;
+            box-sizing: border-box;
+            padding: 2rem 20%;
+            margin: 2rem auto;
+            margin-top: 6rem;
+
+            .loading,
+            .moreGithub {
+                margin: 2rem 0rem;
+
+                h3 {
+                    font-size: 14px;
+                    font-weight: 200;
+                    margin: 0%;
+                    padding: 0%;
+                    color: #000;
+                }
+            }
+
+            .moreGithub {
+                h3:hover {
+                    color: #84b6c6;
+
+                }
+            }
+
+            .sectionProjects {
+                padding: 0%;
+                margin: 0%;
+                width: 100%;
+            }
+
+        }
+    }
+
+
 }
 
 .headerWrapper {
@@ -298,12 +348,13 @@ img {
                     justify-content: center;
                     align-items: center;
                     margin: auto;
+
                     img {
                         width: 16px;
                         object-fit: contain;
                         background-color: #ffffff1c;
                         border-radius: 50%;
-                        padding: 0.4rem 0.4rem ;
+                        padding: 0.4rem 0.4rem;
                         // border: 3px solid #84b5c6a9;
                     }
 
@@ -314,18 +365,7 @@ img {
     }
 }
 
-.projectsWrapper {
-    .loading {
-        margin-bottom: auto;
 
-        h3 {
-            font-size: 14px;
-            font-weight: 200;
-            margin: 0%;
-            padding: 0%;
-        }
-    }
-}
 
 .sectionAbout,
 .sectionProjects,
@@ -550,6 +590,11 @@ textarea::placeholder {
     }
 }
 
+.demosTitle {
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
 .allrights {
     color: #ffffff;
     font-size: x-small;
@@ -735,11 +780,16 @@ textarea::placeholder {
 @media (max-width:800px) {
     .wrapper {
         width: 500px;
+
+        .midSection {
+            .projectsWrapper {
+                padding: 2rem 4rem;
+            }
+        }
     }
 
     .formWrapper {
         width: 90%;
-        box-sizing: border-box;
     }
 
     .textFieldInput {
@@ -752,6 +802,21 @@ textarea::placeholder {
 
     .wrapper {
         width: 340px;
+
+        .midSection {
+
+            .projectsWrapper {
+                padding: 2rem 6rem;
+
+                .projectsTopRow,
+                .projectsBottomRow {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
     }
 
     .headerWrapper {
@@ -762,6 +827,8 @@ textarea::placeholder {
             display: none;
         }
     }
+
+
 
     .descriptionWrapper {
         display: flex;
