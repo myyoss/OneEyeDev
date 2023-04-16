@@ -172,7 +172,7 @@ img {
     .midSection {
         width: 98vw;
         box-sizing: border-box;
-        
+
         .projectsWrapper {
             background-color: #ffffffab;
             box-sizing: border-box;
@@ -184,16 +184,22 @@ img {
             .moreGithub {
                 margin: 2rem 0rem;
 
+
                 h3 {
                     font-size: 14px;
                     font-weight: 200;
                     margin: 0%;
                     padding: 0%;
                     color: #000;
+                    text-align: center;
                 }
             }
 
             .moreGithub {
+                border: 1px solid black;
+                padding: 1rem;
+                border-radius: 0.2rem;
+
                 h3:hover {
                     color: #84b6c6;
 
@@ -203,7 +209,7 @@ img {
             .sectionProjects {
                 padding: 0%;
                 margin: 0%;
-                width: 100%;
+                width: 700px;
             }
 
         }
@@ -772,6 +778,10 @@ textarea::placeholder {
         .midSection {
             .projectsWrapper {
                 padding: 2rem 4rem;
+
+                .sectionProjects {
+                    width: 500px;
+                }
             }
         }
     }
@@ -802,6 +812,10 @@ textarea::placeholder {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                }
+
+                .sectionProjects {
+                    width: 340px;
                 }
             }
         }
