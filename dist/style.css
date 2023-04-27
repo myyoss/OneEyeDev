@@ -316,7 +316,6 @@ img {
   width: 100%;
   object-fit: contain;
   border-radius: 6px;
-  box-shadow: 1px 1px 3px 0 #000;
   max-height: 200px;
   display: flex;
   margin: auto;

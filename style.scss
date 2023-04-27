@@ -329,7 +329,7 @@ img {
           width: 100%;
           object-fit: contain;
           border-radius: 6px;
-          box-shadow: 1px 1px 3px 0 #000;
+          // box-shadow: 1px 1px 3px 0 #000;
           max-height: 200px;
           display: flex;
           margin: auto;
@@ -353,7 +353,6 @@ img {
             background-color: #ffffff1c;
             border-radius: 50%;
             padding: 0.4rem 0.4rem;
-            // border: 3px solid #84b5c6a9;
           }
         }
       }
