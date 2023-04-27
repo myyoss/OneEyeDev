@@ -175,7 +175,7 @@ img {
   box-sizing: border-box;
 }
 .wrapper .midSection .projectsWrapper {
-  background-color: #ffffffab;
+  background-color: rgba(255, 255, 255, 0.6705882353);
   box-sizing: border-box;
   padding: 2rem 20%;
   margin: 2rem auto;
@@ -338,7 +338,7 @@ img {
 .skillsWrapper .projectsBottomRow .projectWrapper .githubLink a img {
   width: 16px;
   object-fit: contain;
-  background-color: #ffffff1c;
+  background-color: rgba(255, 255, 255, 0.1098039216);
   border-radius: 50%;
   padding: 0.4rem 0.4rem;
 }
@@ -488,7 +488,7 @@ img {
 .sectionContact .rightSide .myPic {
   padding: 0.6rem;
   border-radius: 6px;
-  border: 1px solid #d4af376e;
+  border: 1px solid rgba(212, 175, 55, 0.431372549);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -511,7 +511,7 @@ img {
   margin-bottom: 6rem;
   align-items: baseline;
   border-radius: 10px;
-  border: 1px solid #6d8d9b72;
+  border: 1px solid rgba(109, 141, 155, 0.4470588235);
 }
 .formWrapper input {
   height: 3rem;
@@ -555,7 +555,6 @@ img {
   color: #ffffff;
   font-weight: 200;
 }
-
 
 textarea {
   font-size: 16px;
@@ -637,7 +636,7 @@ textarea::placeholder {
   justify-content: center;
   margin-bottom: 2rem;
   color: var(--primary);
-  border-top: 1px solid #d4af3773;
+  border-top: 1px solid rgba(212, 175, 55, 0.4509803922);
 }
 
 .radialGradient2 {
@@ -797,11 +796,9 @@ textarea::placeholder {
   .wrapper .midSection .projectsWrapper .sectionProjects {
     width: 500px;
   }
-
   .formWrapper {
     width: 90%;
   }
-
   .textFieldInput {
     width: 14rem;
     height: 10rem;
@@ -815,7 +812,7 @@ textarea::placeholder {
     padding: 2rem 6rem;
   }
   .wrapper .midSection .projectsWrapper .projectsTopRow,
-.wrapper .midSection .projectsWrapper .projectsBottomRow {
+  .wrapper .midSection .projectsWrapper .projectsBottomRow {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -824,7 +821,6 @@ textarea::placeholder {
   .wrapper .midSection .projectsWrapper .sectionProjects {
     width: 340px;
   }
-
   .headerWrapper {
     display: flex;
     flex-direction: column;
@@ -832,7 +828,6 @@ textarea::placeholder {
   .headerWrapper .linkImg {
     display: none;
   }
-
   .descriptionWrapper {
     display: flex;
     flex-direction: column;
@@ -849,19 +844,15 @@ textarea::placeholder {
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-
   .descriptionWrapper .descriptionText {
     width: 100%;
   }
-
   .descriptionText {
     margin: 1rem 0rem;
   }
-
   .skillsWrapper {
     width: 300px;
   }
-
   .skillsWrapper .skillsTopRow .skill {
     width: 44px;
     height: 50px;
@@ -869,7 +860,6 @@ textarea::placeholder {
   .skillsWrapper .skillsTopRow .skill .skillName {
     font-size: 10px;
   }
-
   .skillsWrapper .skillsBottomRow .skill {
     width: 44px;
     height: 50px;
@@ -877,7 +867,6 @@ textarea::placeholder {
   .skillsWrapper .skillsBottomRow .skill .skillName {
     font-size: 10px;
   }
-
   .formWrapper {
     max-width: 100%;
     box-sizing: border-box;
@@ -886,12 +875,10 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
   }
-
   .textFieldwrapper {
     width: 100px;
     box-sizing: border-box;
   }
-
   .messageWrapper {
     box-sizing: border-box;
     display: flex;
@@ -903,33 +890,26 @@ textarea::placeholder {
     padding: 0%;
     margin: 0%;
   }
-
   .textFieldwrapper {
     width: 100%;
     margin: auto;
   }
-
   .textFieldInput {
     width: 90%;
     margin: auto;
   }
-
   .textFieldLabel {
     margin: 2rem 1rem;
   }
-
   .sectionContact .rightSide .contactLinks {
     width: 50%;
   }
-
   .sectionProjects .rightSide .projectsGithubBtn {
     width: 40%;
   }
-
   .sectionAbout .rightSide .aboutMyPic {
     width: 40%;
   }
-
   .moredemosWrapper {
     display: flex;
     flex-direction: column;
@@ -939,8 +919,7 @@ textarea::placeholder {
     gap: 1rem;
     margin-bottom: 2rem;
   }
-
   .demosTitle {
     text-align: center;
   }
-}
+}/*# sourceMappingURL=style.css.map */
