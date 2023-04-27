@@ -541,8 +541,8 @@ textarea::placeholder {
 
     img {
       border-radius: 1rem;
-      box-shadow: 1px 1px 3px 0 #000;
-      border: 1px solid rgba(255, 255, 255, 0.516);
+      // box-shadow: 1px 1px 3px 0 #000;
+      // border: 1px solid rgba(255, 255, 255, 0.516);
       padding: 0.2rem;
       box-sizing: border-box;
       width: 100%;
@@ -819,6 +819,11 @@ textarea::placeholder {
 
   .descriptionText {
     margin: 1rem 0rem;
+  }
+  .githubLink {
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
   }
 
   .skillsWrapper {
