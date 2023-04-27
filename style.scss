@@ -44,7 +44,6 @@ img {
 .projectsBottomRow {
   display: flex;
   align-items: center;
-  width: 80%;
   margin: auto;
   box-sizing: border-box;
   width: 100%;
@@ -67,10 +66,11 @@ img {
   margin: auto;
 }
 
-.projectsRowsWrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.projectsRowsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 48rem;
 }
 
 .skillsWrapper {
@@ -748,13 +748,14 @@ textarea::placeholder {
 @media (max-width: 800px) {
   .wrapper {
     width: 500px;
-
     .midSection {
       .projectsWrapper {
         padding: 2rem 4rem;
-
         .sectionProjects {
           width: 500px;
+        }
+        .projectsRowsWrapper {
+          width: 34rem;
         }
       }
     }
