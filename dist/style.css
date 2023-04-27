@@ -814,12 +814,16 @@ textarea::placeholder {
   .wrapper .midSection .projectsWrapper {
     padding: 2rem 6rem;
   }
+  .wrapper .midSection .projectsWrapper .projectsRowsWrapper {
+    width: 320px;
+  }
   .wrapper .midSection .projectsWrapper .projectsTopRow,
 .wrapper .midSection .projectsWrapper .projectsBottomRow {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 300px;
   }
   .wrapper .midSection .projectsWrapper .sectionProjects {
     width: 340px;

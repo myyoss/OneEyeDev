@@ -766,19 +766,21 @@ textarea::placeholder {
 @media (max-width: 560px) {
   .wrapper {
     width: 340px;
-
+    // margin: auto;
     .midSection {
       .projectsWrapper {
         padding: 2rem 6rem;
-
+        .projectsRowsWrapper {
+          width: 320px;
+        }
         .projectsTopRow,
         .projectsBottomRow {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          width: 300px;
         }
-
         .sectionProjects {
           width: 340px;
         }
