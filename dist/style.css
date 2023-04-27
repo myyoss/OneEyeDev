@@ -865,6 +865,11 @@ textarea::placeholder {
     left: 10%;
   }
 
+  .sectionSkills,
+.demosTitle {
+    margin: 0%;
+  }
+
   .skillsWrapper {
     width: 300px;
   }
