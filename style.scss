@@ -447,7 +447,6 @@ img {
   margin-top: 6rem;
   margin-bottom: 6rem;
   align-items: baseline;
-  border-radius: 10px;
   border: 1px solid #6d8d9b72;
 
   input {
@@ -480,6 +479,7 @@ img {
     margin-bottom: 0.2rem;
     padding-left: 0.1rem;
     font-size: medium;
+    color: #ffffff73;
   }
 
   .messageWrapper {
@@ -765,7 +765,6 @@ textarea::placeholder {
 @media (max-width: 560px) {
   .wrapper {
     width: 340px;
-    // margin: auto;
     .midSection {
       .projectsWrapper {
         padding: 2rem 6rem;
@@ -779,6 +778,14 @@ textarea::placeholder {
           justify-content: center;
           align-items: center;
           width: 300px;
+          .projectWrapper {
+            .imgLink {
+              border-radius: 0%;
+              img {
+                border-radius: 0%;
+              }
+            }
+          }
         }
         .sectionProjects {
           width: 340px;
@@ -858,6 +865,7 @@ textarea::placeholder {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0px;
   }
 
   .textFieldwrapper {

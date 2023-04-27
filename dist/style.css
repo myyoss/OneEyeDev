@@ -515,7 +515,6 @@ img {
   margin-top: 6rem;
   margin-bottom: 6rem;
   align-items: baseline;
-  border-radius: 10px;
   border: 1px solid #6d8d9b72;
 }
 .formWrapper input {
@@ -546,6 +545,7 @@ img {
   margin-bottom: 0.2rem;
   padding-left: 0.1rem;
   font-size: medium;
+  color: #ffffff73;
 }
 .formWrapper .messageWrapper {
   display: flex;
@@ -822,6 +822,14 @@ textarea::placeholder {
     align-items: center;
     width: 300px;
   }
+  .wrapper .midSection .projectsWrapper .projectsTopRow .projectWrapper .imgLink,
+.wrapper .midSection .projectsWrapper .projectsBottomRow .projectWrapper .imgLink {
+    border-radius: 0%;
+  }
+  .wrapper .midSection .projectsWrapper .projectsTopRow .projectWrapper .imgLink img,
+.wrapper .midSection .projectsWrapper .projectsBottomRow .projectWrapper .imgLink img {
+    border-radius: 0%;
+  }
   .wrapper .midSection .projectsWrapper .sectionProjects {
     width: 340px;
   }
@@ -897,6 +905,7 @@ textarea::placeholder {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0px;
   }
 
   .textFieldwrapper {
